@@ -182,12 +182,20 @@ by Will Larson
 * If you're rehashing the same discussion multiple times, it's time to write an engineering strategy.
 * When the future's too hazy to identify investments worth making, it's time to write another vision.
 
+##### Rules for when to write design docs
+
+* Projects whose capabilities will be used by numerous future projects
+* Projects that meaningfully impact the users
+* Any work taking more than a month of engineering time
+
 ##### Write five design docs
 
 * A batch of design docs is the ideal ingredient for writing an effective strategy because they have what bad strategies lack: detailed specifics grounded in reality.
 * A few recommendations as you write:
+  * Start from the problem. The clearer the problem statement, the more obvious the solution. Spend time clarifying the problem
   * Prefer minimal design document templates that allow authors to select the most useful sections and only insist on exhaustive details for the riskiest projects.
   * Gather perspectives widely but write alone. Don't fall in love with what you've written until *after* you've reviewed it with others.
+  * Prefer good over perfect. It is better to write a good document and get it in front of others than to delay for something marginally better
   * Focusing on pushing designs to be good, rather than fixating on your own best as the relevant quality bar.
 
 ##### Synthesize those five design docs into a strategy
